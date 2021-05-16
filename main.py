@@ -1,7 +1,11 @@
-from FirstLab import Fibonacci
+from Fibonacci import Fibonacci
+import argparse
+
+
 
 
 def main():
+    t, n = args()
     a = Fibonacci()
     print(a.get_i())
 
